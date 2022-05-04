@@ -1,4 +1,4 @@
-const eightballController = require('../controller/eightballController')
+const eightballController = require('../controller/eightBallController')
 const routes = [{
   method: 'GET',
   url: '/eightball/answers',
@@ -7,7 +7,7 @@ const routes = [{
 {
   method: 'GET',
   url: '/eightball/answer',
-  handler: eightballController.getAnswer
+  handler: eightballController.getSingleAnswer
 }
 ]
 module.exports = routes
